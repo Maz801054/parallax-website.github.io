@@ -1,0 +1,76 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato" sans-serif ;
+    font-weight: 400;
+    line: height 18em; 
+    color: #666 ;
+}
+.ptaxt{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.pimg1,.pimg4{
+    background-image: url(../image1.png);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(../image2.png);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(../image3.png);
+    min-height: 400px;
+}
+
+
+
+
+
+   
+
+pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.taxtbg{
+    background: #313534;
+    color: rgb(255, 250, 250);
+    padding: 20px;
+    
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    
+}
+.section_light{
+    background: rgb(255, 255, 255);
+    color: gray;
+}
+
+p{
+    line-height: 30px;
+}
+.section_dark {
+    background-color: gray;
+    color: white;
+}
+.section_ANY {
+    background-color: rgb(60, 77, 44);
+    color: #02f0b4;
+}
